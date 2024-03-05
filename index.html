@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge encriptado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./imagenes/Logo_alura.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header_principal">
+        <img src="./imagenes/Logo_alura.png" alt="logo alura">
+    </header>
+    <main>
+        <h1 class="titulo">Encripador de texto</h1>
+        <div class="container">
+            <section class="Conteiner_cifrado">
+                <textarea class="texto_enviado" placeholder="ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="informacion"><i class="fa-solid fa-circle-info"></i> solo se permiten letras minusculas y
+                        sin acentos</h6>
+                </div>
+                <div class="controlador">
+                    <button class="cifrar">Encriptar</button>
+                    <button class="descifrar">Desencriptar</button>
+                </div>
+            </section>
+            <section class="Conteiner_resultado">
+                <textarea class="resultado" placeholder="no hay ningun resultado aun"></textarea>
+                <div class="controlador">
+                    <button class="copiar">Copiar</button>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <footer class="footer_principal">
+        <div class="redes">
+            <h1>Redes Sociales</h1>
+            <div class="footer_redes">
+                <ul>
+                    <li><a href="https://www.youtube.com/@AluraLatam" target="_blank" class="youtube"><i
+                                class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/aluralatam/" target="_blank" class="instagram"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/aluracursoslatam" target="_blank" class="facebook"><i
+                                class="fab fa-facebook-f"></i></i></a></li>
+                    <li><a href="https://twitter.com/Oracle" target="_blank" class="twitter"><i
+                                class="fab fa-twitter"></i></i></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="container-footer">
+            <div class="footer">
+              <div class="copyright">
+                © 2024 Todos los Derechos Reservados | <a href="https://www.aluracursos.com/">Alura Latam</a>
+              </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
